@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/email_textview"
+        android:layout_marginTop="10dp"
+        android:text="Email"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/email_edittext"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/password_textview"
+        android:layout_marginTop="10dp"
+        android:text="Password"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/password_edittext"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:text="Login"
+        android:textSize="25dp"
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/register_btn"
+        android:text="New To ToDo List, Register Here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+</LinearLayout>

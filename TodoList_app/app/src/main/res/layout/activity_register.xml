@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_marginTop="10dp"
+        android:text="Name"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/name_edittext"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/gender_textview"
+        android:layout_marginTop="10dp"
+        android:text="Gender"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/gender_edittext"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/email_textview"
+        android:layout_marginTop="10dp"
+        android:text="Email"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/email_edittext"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/pass_textview"
+        android:layout_marginTop="10dp"
+        android:text="Password"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/pass_edittext"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/number_textview"
+        android:layout_marginTop="10dp"
+        android:text="Number"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/number_edittext"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/dob_textview"
+        android:layout_marginTop="10dp"
+        android:text="Date Of Birth"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/dob_edittext"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:text="Register"
+        android:textSize="25dp"
+        android:id="@+id/register_btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/add_task_textview"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Add Your Item To Your ToDo List"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/add_task_edittext"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Add Task"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/add_task_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
