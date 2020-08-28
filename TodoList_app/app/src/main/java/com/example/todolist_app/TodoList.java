@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class TodoList extends AppCompatActivity {
 
@@ -27,7 +28,9 @@ public class TodoList extends AppCompatActivity {
             public void onClick(View v) {
 
                 task_name = add_task.getText().toString();
+                add_task.setText("");
 
+                Toast.makeText(getApplicationContext(),"Task added to database",Toast.LENGTH_LONG).show();
 
             }
         });
