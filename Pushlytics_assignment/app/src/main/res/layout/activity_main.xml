@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+           android:id="@+id/enquirytextview"
+            android:textSize="25dp"
+            android:text="Enquiry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/selectcountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Select Country"
+                android:textStyle="bold"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <Spinner
+                android:id="@+id/countryspinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+          <!--  <AutoCompleteTextView
+                android:id="@+id/countrytextview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp">
+
+            </AutoCompleteTextView>-->
+
+            <TextView
+                android:id="@+id/selectstate"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Select State"
+                android:textSize="25dp"></TextView>
+
+            <Spinner
+                android:id="@+id/statespinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+           <!-- <AutoCompleteTextView
+                android:id="@+id/statetextview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>-->
+
+            <TextView
+                android:id="@+id/selectdistrict"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Select District"
+                android:textStyle="bold"
+                android:textSize="25dp"></TextView>
+
+            <Spinner
+                android:id="@+id/districtspinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+         <!--   <AutoCompleteTextView
+                android:id="@+id/districttextview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </AutoCompleteTextView>-->
+
+            <TextView
+                android:id="@+id/selectcenter"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Select Center"
+                android:textSize="25dp"></TextView>
+
+            <Spinner
+                android:id="@+id/centerspinner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+           <!-- <AutoCompleteTextView
+                android:id="@+id/centertextview4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </AutoCompleteTextView>-->
+
+            <Button
+                android:id="@+id/autoselectcenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="Automatically Select Center"
+                android:textSize="20dp">
+
+
+            </Button>
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Submit"
+                android:textStyle="bold"
+                android:textSize="25dp">
+
+            </Button>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
